@@ -20,15 +20,58 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" id = "title_name" href="#"><strong>Quizzard Wizard</strong></a>
-            <button type = "button" class = "btn btn-outline-light ml-auto" id = "login_button">Login</button>
+            <a class="navbar-brand mr-auto" id = "title_name" href="#"><strong>QW</strong></a>
+            <button type = "button" class = "btn btn-outline-light ml-auto" id = "login_button" data-toggle="modal" data-target="#loginModal">Login</button>
         </div>
         
     </nav>
 
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class = "form-row">
+                            <div class = "col-12">
+                                <p><strong><span style = "color:red">**</span>If you haven't registered yet, <a href = "register.html">
+                                    Register here</a></strong></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-3">
+                                    <label for="user_id">User ID</label>
+                            </div>
+                            <div class="form-group col-sm-9">
+                                <input type="text" class="form-control form-control-sm mr-1" id="user_id">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-3">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="form-group col-sm-9">
+                                <input type="password" class="form-control form-control-sm mr-1" id="password">
+                            </div>
+                        </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm offset-sm-10" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Login</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header class="jumbotron">
         <div class="container">
-            <div class="row row-header">
+            <div class="row row-header align-items-center">
                 <div class="col-12 col-sm-6">
                     <h1>Quizzard Wizard</h1>
                     <h5>India's most popular online quiz platform</h5>
@@ -37,7 +80,7 @@
                 <div class="col-12 col-sm-6">
                     <div class="card card-body">
                         <blockquote class="blockquote">
-                            <p class="mb-0">It is not that I'm so smart. But I stay with the questions much longer.</p>
+                            <p class="mb-0">It is not that I'm so smart.<br>But I stay with the questions much longer.</p>
                             <footer class="blockquote-footer">
                                 <cite title="Source Title">Albert Einstein</cite>
                             </footer>
@@ -103,14 +146,14 @@
     <footer class="footer">
         <div class="container">
             <div class="row">             
-                <div class="col-7 col-sm-4 offset-sm-1">
+                <div class="col-7 col-sm-5 offset-sm-1">
                     <h5>Our Address</h5>
                     <address>
 		              9/3, Sitanath Bose Lane<br>
-		              Howrah, West Bengal-711106<br>
+		              Howrah, West Bengal,
 		              INDIA<br>
-		              <i class="fa fa-phone fa-lg"></i>: +918240959558<br>
-                      <i class="fa fa-envelope fa-lg"></i>: 
+		              <i class="fa fa-phone fa-lg"></i> +918240959558<br>
+                      <i class="fa fa-envelope fa-lg"></i> 
                       <a href="mailto:pranayan1506@gmail.com">pranayan1506@gmail.com</a>
 		           </address>
                 </div>
@@ -121,12 +164,9 @@
                         <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/pranayan-metiya-75b12a1a3/"><i class="fa fa-linkedin"></i></a>
                         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                         <a class="btn btn-social-icon" href="mailto:pranayan1506@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <br><br>
+                        <p>© Copyright 2020 Quizzard Wizard</p>
                     </div>
-                </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2020 Quizzard Wizard</p>
                 </div>
            </div>
         </div>

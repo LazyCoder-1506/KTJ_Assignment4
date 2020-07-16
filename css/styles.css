@@ -9,22 +9,22 @@ body
     margin : 0px auto;
     background-color : #2C3694;
     color : floralwhite;
-    padding : 70px 30px 70px 30px;
+    padding : 20px 30px 20px 30px;
 }
 
 
 .footer
 {
     margin : 0px;
-    padding : 20px 0px 20px 0px;
+    padding : 15px 0px 5px 0px;
     background-color : #B2DEFE;
 }
 
 .row-content
 {
-    min-height : 400px;
+    min-height : 350px;
     border-top : 1px ridge;
-    padding : 50px 0px 50px 0px;
+    padding : 30px 0px 30px 0px;
     margin : 0px auto;
 }
 
@@ -73,4 +73,9 @@ body
 cite
 {
     color : #b2defe;
+}
+
+.modal-content
+{
+    padding : 10px 10px 20px 20px;
 }
