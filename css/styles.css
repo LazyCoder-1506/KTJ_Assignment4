@@ -1,0 +1,76 @@
+body
+{
+    padding-top : 50px;
+    z-index : 0;
+}
+
+.jumbotron
+{
+    margin : 0px auto;
+    background-color : #2C3694;
+    color : floralwhite;
+    padding : 70px 30px 70px 30px;
+}
+
+
+.footer
+{
+    margin : 0px;
+    padding : 20px 0px 20px 0px;
+    background-color : #B2DEFE;
+}
+
+.row-content
+{
+    min-height : 400px;
+    border-top : 1px ridge;
+    padding : 50px 0px 50px 0px;
+    margin : 0px auto;
+}
+
+
+#title_name
+{
+    font-family: 'Patua One';
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-caption
+{
+    top : 70px;
+    right : 100px;
+    text-align : right;
+    max-width : 800px;
+    margin-left : 400px;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.card-body
+{
+    background-color : #2C3694;
+    color : #B2DEFE;
+    border : 0px;
+    text-align : right;
+}
+
+cite
+{
+    color : #b2defe;
+}
