@@ -20,8 +20,9 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" id = "title_name" href="index.html"><strong>QW</strong></a>
-        </div>    
+            <h2 class="navbar-brand mr-auto">Welcome <span id = "username" style="font-style:italic">username</span></h2>
+            <a roll = "button" class = "btn btn-outline-light ml-auto" id = "logout_button" href = "index.html">Logout</a>
+        </div>  
     </nav>
 
     <header class="jumbotron">
@@ -48,46 +49,42 @@
 
     <div class = "container">
         <div class="row row-content">
-            <div class="col-12 col-md-8 offset-md-2">
-                <h2>Register yourself  and start quizzing</h2>
-            </div>
-            <div class = "col-12 col-md-8 offset-md-2">
-                <form>
-                    <br>
-                    <div class = "form-row">
-                        <div class = "col-12">
-                            <p><strong>All fields are mandatory</strong></p>
+            <div class="col-12 col-sm-9">
+                <div class="card">
+                    <h3 class="card-header">You are on Level <span id="level">0</span></h3>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class = "col-12 mb-2">
+                                <h5>Question goes here</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "col-12">
+                                <p>Option goes here</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "col-12">
+                                <p>Option goes here</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "col-12">
+                                <p>Option goes here</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "col-12">
+                                <p>Option goes here</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class = "col-12 col-md-3 ml-auto">
+                                <input class = "btn btn-outline-success" type = "submit" value = "Submit Answer">
+                            </div>
                         </div>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-3">
-                            <label for="user_id">Create User ID</label>
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <input type="text" class="form-control form-control-sm mr-1" id="user_id" placeholder = "Enter User ID">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-3">
-                            <label for="password">Create Password</label>
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <input type="password" class="form-control form-control-sm mr-1" id="password" placeholder = "Enter Password">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-3">
-                            <label for="password">Confirm Password</label>
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <input type="password" class="form-control form-control-sm mr-1" id="confirm_password" placeholder = "Confirm Password">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit" class="btn btn-primary btn-md btn- offset-md-3">Register</button>  
-                        <button type="button" class="btn btn-secondary btn-md ml-2" href="register.html">Cancel</button>      
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
